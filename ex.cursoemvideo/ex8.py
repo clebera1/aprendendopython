@@ -1,19 +1,11 @@
-tabuada = int(input('Digite um numero para ver sua tabuada: '))
-
-def espaco():
-    print('====================')
-
-espaco()
-
-n1 = print(f'  1 x {tabuada} = {tabuada *1}')
-n2 = print(f'  2 x {tabuada} = {tabuada *2}')
-n3 = print(f'  3 x {tabuada} = {tabuada *3}')
-n4 = print(f'  4 x {tabuada} = {tabuada *4}')
-n5 = print(f'  5 x {tabuada} = {tabuada *5}')
-n6 = print(f'  6 x {tabuada} = {tabuada *6}')
-n7 = print(f'  7 x {tabuada} = {tabuada *7}')
-n8 = print(f'  8 x {tabuada} = {tabuada *8}')
-n9 = print(f'  9 x {tabuada} = {tabuada *9}')
-n10 = print(f'  10 x {tabuada} = {tabuada *10}')
-
-espaco()
+num = int(input('Digite um numero para ver sua tabuada:'))
+print(f'{num} x 1 = {num*1}')
+print(f'{num} x 2 = {num*2}')
+print(f'{num} x 3 = {num*3}')
+print(f'{num} x 4 = {num*4}')
+print(f'{num} x 5 = {num*5}')
+print(f'{num} x 6 = {num*6}')
+print(f'{num} x 7 = {num*7}')
+print(f'{num} x 8 = {num*8}')
+print(f'{num} x 9 = {num*9}')
+print(f'{num} x 10 = {num*10}')
