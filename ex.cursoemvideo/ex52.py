@@ -7,7 +7,7 @@ for c in range(1, numero + 1):
     else:
         print('\033[31m', end = '')
     print(f'{c}', end = ' ')
-print(f'\n\033[mO numero {numero} foi divisel {total} vezes')
+print(f'\n\033[mO numero {numero} foi divisisel {total} vezes')
 if total == 2:
     print(f'O numero {numero} é primo')
 else:
