@@ -1,7 +1,5 @@
 cont = 'zero','um', 'dois', 'tres', 'quatro' , 'cinco' , 'seis', 'sete', 'oito' , 'nove', 'dez'
 
-
-
 while True:
     numero = int(input('Digite um numero entre 0 e 10: '))
     
