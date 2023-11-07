@@ -13,13 +13,7 @@ for v in range(0,5):
                 print(f'Valor adicionado na posição {pos+1}')
                 break 
             pos +=1
-    
-
-
-        
-
-            
-        
+                    
 print(f'Os valores digitados em ordem foram {lista}')
 
 
