@@ -34,7 +34,6 @@ for i, l in enumerate(lista_total):
 
 lista = []
 numero = 0
-contador = 0
 lista_total = []
 total = 1
 jogos = int(input('Quantos jogos voce quer jogar? '))
