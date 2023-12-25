@@ -1,7 +1,26 @@
-def desempacotar(*num):
-    total = len(num)
-    soma = sum(num)
-    print(f'A soma dos numeros é {soma} e o total de numeros dessa tupla é {total}')
+'''
+def fatorial(num=1):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
 
-desempacotar(3,2,1,4,5,6,7)
-desempacotar(3,2,1,5)
+f1 = fatorial(2)
+f2 = fatorial()
+f3 = fatorial(5)
+
+print(f'Os fatoriais são: {f1}, {f2} e {f3}')
+'''
+
+def par(n=0):
+    if n%2==0:
+        return True
+    else:
+        return False
+
+n = int(input('Digite um numero e saiba se ele é par: '))
+
+if par(n) == True:
+    print(f'{n} é um numero par')
+else:
+    print(f'{n} não é um numero par')
