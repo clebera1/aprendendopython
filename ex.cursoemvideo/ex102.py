@@ -19,6 +19,8 @@ def fatorial(num, show=False):
 
 numero = int(input('Digite um numero e saiba seu fatorial: '))
 print(fatorial(numero, True))
+
+help(fatorial)
     
 
 
