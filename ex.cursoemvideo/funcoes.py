@@ -12,7 +12,7 @@ f3 = fatorial(5)
 print(f'Os fatoriais são: {f1}, {f2} e {f3}')
 '''
 
-def par(n=0):
+'''def par(n=0):
     if n%2==0:
         return True
     else:
@@ -23,4 +23,11 @@ n = int(input('Digite um numero e saiba se ele é par: '))
 if par(n) == True:
     print(f'{n} é um numero par')
 else:
-    print(f'{n} não é um numero par')
+    print(f'{n} não é um numero par')'''
+
+def falar_oi(nome):
+    print(f'Olá, {nome}')
+
+
+n = str(input('Digite seu nome: '))
+falar_oi(n)
